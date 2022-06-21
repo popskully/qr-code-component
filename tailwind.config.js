@@ -1,0 +1,13 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
+    colors: {
+      white: "hsl(0, 0%, 100%)",
+      Lightgray: "hsl(212, 45%, 89%)",
+      Grayishblue: "hsl(220, 15%, 55%)",
+      Darkblue: "hsl(218, 44%, 22%)",
+    },
+  },
+  plugins: [],
+};
